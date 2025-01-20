@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBlockNo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Gonvernance/testClock.sol": "testClock"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Gonvernance/testClock.sol": {
+			"keccak256": "0x5b6c8a1b774a8450b5283b9c4ade59da8d667d1df85c66d2c4e4c3bd9185dc18",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b36a4eb0730051b895ead602db125d08f4000ae223c541148ac8cdde33af4183",
+				"dweb:/ipfs/QmaXaSbMDc9XqbJKWKFyqe2BNT8CV73n3mzrHhbeUMnY2Q"
+			]
+		}
+	},
+	"version": 1
+}

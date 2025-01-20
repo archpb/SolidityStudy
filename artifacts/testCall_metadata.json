@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EncodeCall.sol": "testCall"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EncodeCall.sol": {
+			"keccak256": "0x0dc0ae04cc2bbc75a3c9eb280fd2395c9bf44747860462b1b39894ad2cfeda76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8b5b641f263ed02ee1ab4557019e14caf9a9bc9eb04c029f1c2f4fbce9bb4f4c",
+				"dweb:/ipfs/QmRA8nb5hRawMiZRTnyrmRiPkr5yeux8aZnMwqw1xuKytf"
+			]
+		}
+	},
+	"version": 1
+}

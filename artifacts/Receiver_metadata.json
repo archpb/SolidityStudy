@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "DisplayMsgData",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes1[]",
+						"name": "",
+						"type": "bytes1[]"
+					}
+				],
+				"name": "displayresults",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "u256",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "u8",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint32",
+						"name": "u32",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint64",
+						"name": "u64",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "inputstr",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "inputbytes",
+						"type": "bytes"
+					}
+				],
+				"name": "recFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "aa",
+						"type": "bytes"
+					}
+				],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FunctionSelector.sol": "Receiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FunctionSelector.sol": {
+			"keccak256": "0x6e47bc11b342fb8e4a040d2ba1aa53d6a0ab0865d6d5d34deed37c883de41222",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e1b5f2b029d2113bfc4f29f1985d7074f561f5d0441dfe51e3f98bc5a8c76f4",
+				"dweb:/ipfs/QmVokDVGnjRrQt96dpihdMAZTE7AWG7oB9vsPj7GitmGTt"
+			]
+		}
+	},
+	"version": 1
+}

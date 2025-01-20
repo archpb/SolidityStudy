@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "deployEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_createCode",
+						"type": "bytes"
+					}
+				],
+				"name": "deployContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Deploy.sol": "userContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Deploy.sol": {
+			"keccak256": "0xb371da2737e468ba60bdfdf88d55398fb6234d8b02e1ec8b553c35791f1d8636",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87c0d7ca99c22964bd37413bfc738984b89f18470d2793803ceb269d7d25435e",
+				"dweb:/ipfs/QmaSkYCrfGKYBFFWLZTDhoMTXa8e86vyHxjYT3Ji6r12Jp"
+			]
+		}
+	},
+	"version": 1
+}

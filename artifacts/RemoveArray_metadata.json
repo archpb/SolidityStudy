@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "MyArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "keepOrder",
+						"type": "bool"
+					}
+				],
+				"name": "removeEleByIdx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "len",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"removeArray.sol": "RemoveArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"removeArray.sol": {
+			"keccak256": "0x27b6d27719c95babc27161877765eb37e59ffbe1373f43b6f00247d7cceaf19c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c4202a643477794822006601ea8f1fc6613439b4cc78cef93472ca3ecb5e0a18",
+				"dweb:/ipfs/QmeFN3VcWRYnC5daWMrJppet55Y8HqjfxuR44YnHa8AtaA"
+			]
+		}
+	},
+	"version": 1
+}

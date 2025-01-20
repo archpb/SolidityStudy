@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "summation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"forwhile.sol": "forwhile"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"forwhile.sol": {
+			"keccak256": "0x29b09c4a305f34695c4e6609c5fc2166de73516e4922397258d462158610d0af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef10a4bf8b3a95e216e29a47c992f8101d244ee0a7ce7565012108e552ca92b5",
+				"dweb:/ipfs/QmPrNoHpvopxj8fwFfEk7Q47TPEKUzcPbn9zBcvu98xGFv"
+			]
+		}
+	},
+	"version": 1
+}

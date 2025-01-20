@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "toHexString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "toHexString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "toString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"toHexString(uint256)": {
+					"details": "Converts a `uint256` to its ASCII `string` hexadecimal representation."
+				},
+				"toHexString(uint256,uint256)": {
+					"details": "Converts a `uint256` to its ASCII `string` hexadecimal representation with fixed length."
+				},
+				"toString(uint256)": {
+					"details": "Converts a `uint256` to its ASCII `string` decimal representation."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"uint2string.sol": "Strings"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"uint2string.sol": {
+			"keccak256": "0xd70d55439ea4cd5b948e4ef7f96434845f489bf21a879699bbf1bea04676b477",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67a6eb99d66eb44b2ad6d62686e1d0df8414b2b1e9c060a51ea9ee7ece9f26d2",
+				"dweb:/ipfs/QmYsJBxbuZsYn2jCHLUS6KGM9oPUfpaMUyzmZsaYvLG6Yk"
+			]
+		}
+	},
+	"version": 1
+}

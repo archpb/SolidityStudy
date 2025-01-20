@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "deployOK",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contractByteCode.sol": "factory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contractByteCode.sol": {
+			"keccak256": "0x1cd2c5151d9e9836dcbdc7205ad92c5ff2f2de6a85ec9ecc22da595fa144c752",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b8f850b9d360ef62fd0364c25b8a6d87f1d38f589804e3d74b08f3be81a9246",
+				"dweb:/ipfs/QmYUYPeXZjgThC2Co9wrCbs5X9LtsRNWthqmpv6BwUAzNv"
+			]
+		}
+	},
+	"version": 1
+}
