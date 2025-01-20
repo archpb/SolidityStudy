@@ -18,4 +18,8 @@ contract Counter{
     function getCount() external view returns(uint){
         return m_count;
     }
+
+    function show() external  pure {
+        // just for testing git change
+    }
 }
